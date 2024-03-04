@@ -9,7 +9,7 @@ public class App
     {
         Scanner sc = new Scanner(System.in);
         Gifu gifu = new Gifu();
-        System.out.println( "Tervetuloa Gifu-järjetelmään" );
+        System.out.println( "Tervetuloa Gifu-järjestelmään" );
         System.out.println("Mille yliopistolle haluat ottaa järjestelmän käyttöön?");
         String university = sc.nextLine();
         boolean exit = false;
@@ -51,7 +51,7 @@ public class App
 
                     case 5:
                         gifu.listCourses();
-                        System.out.println("Mille kurssille haluat lisätä opiskelijat? Syötä kurssin numero:");
+                        System.out.println("Mille kurssille haluat lisätä opiskelijan? Syötä kurssin numero:");
                         String courseIndexString = sc.nextLine();
                         int courseIndex = Integer.parseInt(courseIndexString);
                     
